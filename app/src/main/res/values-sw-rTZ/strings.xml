@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+
+    <string name="app_name">Rangi</string>
+    <string name="colour_selection">Chaguo la Rangi</string>
+    <string name="favourite_colours">Rangie la Kupendeza</string>
+    <string name="appwidget_text">MFANO</string>
+    <string name="add_widget">Ongeza Dude</string>
+    <string name="app_widget_description">Hili hufafanua Dude ya Programu</string>
+    <string name="title_activity_colour_suggestion">Maoni</string>
+    <string name="wecome_to_rangi_colour_section">Karibu kwenye kipande cha Changuo la Rangi</string>
+    <string name="welcome_to_rangi_colour_selection">Karibu kwenye Changuo la Rangi</string>
+    <string name="title_activity_rangi_infomation">Kuhusu Rangi</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Fragmenti ya Kwanza</string>
+    <string name="second_fragment_label">Fragmenti ya Pili</string>
+    <string name="next">Ifuatayo</string>
+    <string name="previous">Iliyotangulia</string>
+
+    <string name="hello_first_fragment">Habari Fragmenti ya Kwanza</string>
+    <string name="hello_second_fragment">Fragmenti ya Pili Arg: %1$s</string>
+    <string name="dialog_title">Maliza</string>
+    <string name="ok">Sawa</string>
+    <string name="cancel">Kataa</string>
+</resources>

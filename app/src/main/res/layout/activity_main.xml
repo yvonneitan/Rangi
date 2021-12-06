@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6A1A3F40"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="Rangi"
+        android:textSize="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/colour_selection_button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:onClick="startSelection"
+        android:text="@string/colour_selection" />
+
+    <Button
+        android:id="@+id/favourite_colours_button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:onClick="startFavourites"
+        android:text="@string/favourite_colours" />
+    <Button
+        android:id="@+id/rangi_info_button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:onClick="startRangiInfo"
+        android:text="Rangi Infomation" />
+
+</LinearLayout>
